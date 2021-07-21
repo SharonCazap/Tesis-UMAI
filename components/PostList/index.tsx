@@ -1,6 +1,5 @@
 import { renderTitle } from "@9gustin/react-notion-render";
 import Title from "@9gustin/react-notion-render/dist/types/Title";
-import Color from "@9gustin/react-notion-render/dist/types/Color";
 import Link from "next/link";
 import React from "react";
 
@@ -10,7 +9,7 @@ interface Props {
   posts: {
     id: string;
     last_edited_time: string;
-    properties: { Name: Title, Color: Color };
+    properties: { Name: Title, Color };
   }[];
 }
 
