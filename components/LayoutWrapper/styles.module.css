@@ -1,0 +1,8 @@
+.adjust-content, .main {
+  max-width: 768px;
+  margin: auto;
+  padding: 0 20px;
+}
+.main{
+  padding-top: 70px;
+}
